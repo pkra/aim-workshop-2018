@@ -1,0 +1,8 @@
+port: 6275
+dest: build
+source: intro.md
+title: 'Deep labels with SRE and MathJax | AIM workshop 2018'
+assets: ['./img']
+css: '{}'
+cssFiles: ['./assets/css/style.css']
+scriptFiles: ['./assets/js/index.js']

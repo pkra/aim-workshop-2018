@@ -1,0 +1,17 @@
+{
+  "name": "aim-worshops-2018",
+  "version": "1.0.0",
+  "description": "Materials for AIM workshop on web accessibility, 2018",
+  "main": "index.js",
+  "dependencies": {
+    "mathjax-node-sre": "^3.0.0",
+    "remarker": "^1.7.1",
+    "speech-rule-engine": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
