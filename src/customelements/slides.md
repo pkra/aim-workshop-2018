@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Custom Elements for mathematical documents | AIM workshop 2018</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link href="./assets/css/style.css" rel="stylesheet" />
-    <style type="text/css">
-      {}
-    </style>
-  </head>
-  <body>
-    <textarea id="source">class: center, middle, inverse
+class: center, middle, inverse
 
 # Custom Elements for mathematical documents
 
@@ -154,14 +143,3 @@ customElements.define('statement-', statement);
 
 * markdown everywhere
 * npm/unpkg, rawgit might be too hard
-</textarea>
-    <script src="remark.js"></script>
-    <script src="./assets/js/index.js"></script>
-    <script>
-      window.slideshow = remark.create({})
-    </script>
-    <script>
-      
-    </script>
-  </body>
-</html>

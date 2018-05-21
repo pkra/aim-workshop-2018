@@ -6,7 +6,7 @@ Materials for a workshop. [github.com/pkra/aim-workshop-2018](https://github.com
 
 The slides use RemarkJS which uses arrow keys for navigation but does not expose them fully accessibly; as a work around, you can use key-pass-through features of screenreaders (e.g., NVDA+F2, JAWS+3).
 
-* [experiments with deep labels]
+* [Deep labels with SRE and MathJax](./deeplabels)
   * initially done for MathJax
   * "sprinkling" aria-labels across MathJax SVG output to get fully explorable SVG (ie. no JS required)
 * [a stroll through MathML]
@@ -15,7 +15,7 @@ The slides use RemarkJS which uses arrow keys for navigation but does not expose
   * commonly found problems and heuristics
   * visual layout: no normative statements, often vague
   * semantic value of
-* [custom elements for mathematical documents]
+* [Custom Elements for mathematical documents](./customelements)
   * quick introduction to custom elements
     * v0 vs v1, https://github.com/shawnbot/custom-elements#v1
     * naming
