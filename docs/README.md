@@ -15,7 +15,7 @@ The slides use RemarkJS which uses arrow keys for navigation but does not expose
   * commonly found problems and heuristics
   * visual layout: no normative statements, often vague
   * semantic value of
-* [Custom Elements for mathematical documents](./customelements)
+* Custom Elements for mathematical documents
   * quick introduction to custom elements
     * v0 vs v1, https://github.com/shawnbot/custom-elements#v1
     * naming
