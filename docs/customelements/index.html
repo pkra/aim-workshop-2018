@@ -67,6 +67,7 @@ Peter Krautzberger
 
 ???
 * v0 vs v1
+* https://developers.google.com/web/fundamentals/web-components/customelements
 
 ---
 
@@ -104,8 +105,12 @@ Peter Krautzberger
 * Content: HTML
 * style: CSS
 * JS: custom behavior
-  * regstration
-  * connectedCallback
+  * registration `window.customElements.define()`
+  * custom behavior
+      * `connectedCallback`
+      * `disconnectedCallback`
+      * `attributeChangedCallback`
+      * `adoptedCallback`
 
 ???
 
@@ -114,20 +119,6 @@ Peter Krautzberger
 # Simple Examples
 
 * theorem environments
-```
-class statement extends HTMLElement {
-  connectedCallback(name = 'Statement') {
-    this.setAttribute('role','landmark');
-    const heading = document.createElement('b');
-    heading.innerHTML = name;
-    this.insertBefore(heading, this.firstChild);
-    var style = document.createElement('style');
-    style.textContent = 'statement- { display: block; }';
-    this.appendChild(style);
-  }
-}
-customElements.define('statement-', statement);
-```
 * ref
 * cite
 

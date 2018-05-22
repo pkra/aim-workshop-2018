@@ -17,13 +17,5 @@ The slides use RemarkJS which uses arrow keys for navigation but does not expose
   * semantic value of
 * Custom Elements for mathematical documents
   * quick introduction to custom elements
-    * v0 vs v1, https://github.com/shawnbot/custom-elements#v1
-    * naming
-    * the real magic: registration, added behavior
   * examples for creating common elements of mathematical documents
-    * theorem environments
-    * cite, ref
-      * counters
   * examples for advanced constructions
-    * stretchy braces for non-equations
-    * using tools, e.g., https://saeidzebardast.github.io/nvd3-elements/components/nvd3-elements/

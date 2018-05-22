@@ -3,7 +3,7 @@ const sre =   require('speech-rule-engine');;
 const mj = require('mathjax-node').typeset;
 sre.setupEngine({
 domain: 'mathspeak',
-style: 'brief',
+style: 'default',
 locale: 'en',
 speech: 'deep'
 });
